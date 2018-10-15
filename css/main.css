@@ -4,12 +4,13 @@ html {
 
 *, *::before, *::after {
   box-sizing: inherit;
+  vertical-align: middle;
 }
 
 body {
   font-family: 'Lato', sans-serif;
   font-weight: bold;
-  margin-width: 1.5rem;
+  margin: 1.5rem;
   background-color: #eee9de;
   line-height: 1.5;
 }
@@ -19,6 +20,9 @@ img {
   width: 100%;
   max-width: 25em;
   padding: .4em .75em .5em;
+}
+
+div {
 }
 
 h2 {
