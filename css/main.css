@@ -4,15 +4,15 @@ html {
 
 *, *::before, *::after {
   box-sizing: inherit;
-  vertical-align: middle;
 }
 
 body {
   font-family: 'Lato', sans-serif;
   font-weight: bold;
-  margin: 1.5rem;
+  margin: auto;
   background-color: #eee9de;
   line-height: 1.5;
+  vertical-align: middle;
 }
 
 img {
@@ -20,30 +20,28 @@ img {
   width: 100%;
   max-width: 25em;
   padding: .4em .75em .5em;
-}
-
-div {
+  text-align: center;
 }
 
 h2 {
   display: block;
-  width:auto;
   max-width: 25em;
   padding: .4em .75em .5em;
+  text-align: left;
 }
 
 p {
   display: inline-block;
-  width:auto;
   max-width: 25em;
   padding: .4em .75em .5em;
+  text-align: left;
 }
 
 a {
   display: inline-block;
-  width:auto;
   max-width: 25em;
   padding: .4em .75em .5em;
   border-style: solid;
   border-radius: 10px;
+  text-align: left;
 }
