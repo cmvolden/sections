@@ -25,7 +25,6 @@ div {
   padding: 1em;
   vertical-align: middle;
 }
-
 img {
   width: 100%;
   display: block;
@@ -46,4 +45,16 @@ a {
   border-style: solid;
   border-radius: 10px;
   text-align: left;
+}
+
+.btn {
+  color: #333;
+  border-color: #333;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #666;
+  border-color: #666;
 }
