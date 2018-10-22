@@ -1,45 +1,47 @@
 html {
   box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+section {
+  padding: 2em 0;
+  text-align: center;
+}
+
 body {
-  font-family: 'Lato', sans-serif;
   font-weight: bold;
   margin: auto;
   background-color: #eee9de;
-  line-height: 1.5;
+}
+
+div {
+  display: inline-block;
+  max-width: 25em;
+  padding: 1em;
   vertical-align: middle;
 }
 
 img {
-  display: inline-block;
   width: 100%;
-  max-width: 25em;
-  padding: .4em .75em .5em;
-  text-align: center;
+  display: block;
 }
 
 h2 {
-  display: block;
-  max-width: 25em;
-  padding: .4em .75em .5em;
   text-align: left;
+  margin-top: 0;
 }
 
 p {
-  display: inline-block;
-  max-width: 25em;
-  padding: .4em .75em .5em;
   text-align: left;
 }
 
 a {
   display: inline-block;
-  max-width: 25em;
   padding: .4em .75em .5em;
   border-style: solid;
   border-radius: 10px;
